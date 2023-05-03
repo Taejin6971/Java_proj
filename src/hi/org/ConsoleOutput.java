@@ -49,6 +49,36 @@ public class ConsoleOutput {
 		System.out.println(b);
 		System.out.println(a+b);
 		
+		System.out.println("==============================");
+		
+	//2. System.out.print();	<== 출력후 개행하지 않는다.
+		
+		System.out.print("안녕 ");
+		System.out.print("하세요\n");
+		
+		System.out.println("==============================");
+		
+	//3. System.out.printf();	<== 자료형 포멧에 따라 출력을 할 수 있다.
+		System.out.printf("%d\n",30);	// %d : 10진수로 출력
+		System.out.printf("%o\n",30);	// %o : 8진수로 출력
+		System.out.printf("%x\n",30);	// %x : 16진수로 출력
+		
+		System.out.printf("%s\n","문자열 출력");	// %s : 문자열을 출력
+		System.out.printf("%f\n",5.8);		// %f : 실수응 가지고 올때
+		System.out.printf("%4.2f\n", 5.8);	// %4.2f : 전체 4자리 소숫점이하 2자리
+		System.out.printf("%d와%4.2f를 출력합니다.",4,5.8);
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
