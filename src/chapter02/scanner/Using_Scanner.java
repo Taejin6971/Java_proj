@@ -34,9 +34,8 @@ public class Using_Scanner {
 		System.out.printf("입력한 이름은 %s 이고, 국어점수는 %d 이고, 영어점수는 %d 이고, 수학점수는 %d 입니다.\n",
 			name, kor, eng, math);
 
-		System.out.printf("%s 님의 모든 과목의 합은 %d 이고, 평균은 %5.2f 입니다.", name, sum, avg);
+		System.out.printf("%s 님의 모든 과목의 합은 %d 이고, 평균은 %5.2f 입니다.", 
+				name, sum, avg);
 
-		
-		
 	}
 }

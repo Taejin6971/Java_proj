@@ -18,7 +18,5 @@ public class RangeOfVariable {
 		System.out.println(val1);
 //		System.out.println(val2);	//오류 발생 : 
 	
-	
-	
 	}
 }

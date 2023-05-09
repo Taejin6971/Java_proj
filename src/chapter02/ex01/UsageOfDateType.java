@@ -33,6 +33,5 @@ public class UsageOfDateType {
 		
 		//PI=3.1412345;		//상수는 수정할 수 없다.
 		
-		
 	}
 }
