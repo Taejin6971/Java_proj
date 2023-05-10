@@ -16,7 +16,7 @@ public class Ex01 {
 
 		// arr1 배열의 각 방에 값을 저장하는 for
 		for (int i = 0; i < arr1.length; i++) {
-			b += 3; // a = a+3;
+			b += 3; // b = b+3;
 			arr1[i] = b;
 		}
 

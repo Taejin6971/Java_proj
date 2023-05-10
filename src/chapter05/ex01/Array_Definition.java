@@ -4,7 +4,10 @@ public class Array_Definition {
 	public static void main(String[] args) {
 		/*
 		자료형 : 자바는 변수명 앞에 반드시 자료형이 선언되어야 한다.
-			- 기본 자료형 (8가지) : boolean, 정수(byte, short, int, long), 실수(float, double), 문자(char)
+			- 기본 자료형 (8가지) : 	boolean, 
+								정수(byte, short, int, long), 
+								실수(float, double), 
+								문자(char)
 				- 변수명과 값이 Stack 메모리 영역에 저장됨
 				- 사용전에 반드시 초기값이 할당 되어 있어야 한다.
 				- 첫자가 소문자로 되어 있다.
