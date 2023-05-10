@@ -78,6 +78,6 @@ public class EX02 {
 		
 		// 스캐너 종료 : 사용후 메모리에서 제거
 		sc.close();
-		
+
 	}
 }
