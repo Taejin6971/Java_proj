@@ -1,6 +1,6 @@
 package chapter05.ex04;
 
-public class Rectangle_Array_Definition {
+public class Raectangle_Array_Definition {
 	public static void main(String[] args) {
 		/*
 		다차원 배열 : 2 차원
