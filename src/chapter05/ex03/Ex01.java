@@ -34,7 +34,8 @@ public class Ex01 {
 
 				// 배열방의 for 문을 사용해서 7,8의 배수를 배열방에 저장
 				int n = 0; // 배열 방의 번호
-				for (int i = 1;; i++) { // 무한루프 - i = 배열의 방에 저장되는 7,8의 배수의 값
+				int i; // 배열방에 들어갈 값을 저장하는 변수
+				for (i = 1;; i++) { // 무한루프 - i = 배열의 방에 저장되는 7,8의 배수의 값
 					if (i % 7 == 0 || i % 8 == 0) { // i가 7,8의 배수일때
 						arr1[n] = i;
 						n++;
@@ -43,8 +44,8 @@ public class Ex01 {
 						break;
 				}
 				// for 문을 사용해서 배열의 각 방의 내용을 출력
-				for (int i = 0; i < arr1.length; i++) {
-					System.out.print(arr1[i] + " ");
+				for (n = 0; n < arr1.length; n++) {
+					System.out.print(arr1[n] + " ");
 				}
 				System.out.println("\n");
 
@@ -69,7 +70,6 @@ public class Ex01 {
 
 				// 배열의 각 방에 값을 저장하는 for
 				for (i = 0;; i++) {
-
 					if (i % 4 == 0)
 						continue;
 					arr1[n] = i;
@@ -95,6 +95,38 @@ public class Ex01 {
 				System.out.println(Arrays.toString(arr1));
 
 			} else if (a == 3) {
+				System.out.println("인풋 값을 받아서 방의 크기를 지정하고 3의 배수만 저장하는데 그중 6의 배수인 경우만 뺴고 정장후 출력");
+				System.out.println("배열 방의 크기를 정수값으로 입력 하시오 >>>");
+				idx = sc.nextInt();
+
+				arr1 = new int[idx];
+
+				int n = 0;
+				int i;
+
+				for (i = 0;; i += 3) {
+					if (i % 6 == 0)
+						continue;
+					arr1[n] = i;
+					n++;
+
+					if (n == idx)
+						break;
+				}
+				// 배열의 저장된 내용을 출력 : for,
+				for (n = 0; n < arr1.length; n++) {
+					System.out.print(arr1[n] + " ");
+				}
+				System.out.println("\n");
+
+				// 배열의 저장된 내용을 출력 : Enhanced for,
+				for (int k : arr1) {
+					System.out.print(k + " ");
+				}
+				System.out.println("\n");
+
+				// 배열의 저장된 내용을 출력 : Arrays.toString(),
+				System.out.println(Arrays.toString(arr1));
 
 			} else if (a == 4) {
 				System.out.println("프로그램 종료");
