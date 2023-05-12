@@ -92,5 +92,6 @@ public class Non_Raectangle_Array {
 		for(int i=0; i<arr2.length; i++) {
 			System.out.println(Arrays.toString(arr2[i]));
 		}
+		
 	}
 }
