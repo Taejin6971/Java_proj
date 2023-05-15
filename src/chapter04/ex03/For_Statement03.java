@@ -2,10 +2,10 @@ package chapter04.ex03;
 
 public class For_Statement03 {
 	public static void main(String[] args) {
-	/*
+		/*
 		이중 for 문을 사용해서 구구단 출력 (1단~9단 까지 출력)
 			-for --for
-	 */
+		 */
 		
 		int i,j;		//i : 단을 출력하는 변수, j : 1~9까지 출력 되는 변수
 		

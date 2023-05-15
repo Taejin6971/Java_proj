@@ -2,9 +2,9 @@ package chapter04.ex03;
 
 public class For_Statement04 {
 	public static void main(String[] args) {
-	/*
+		/*
 		for 문에서 오류를 일으키기 쉬운 부분
-	 */
+		 */
 		
 		for (int i=0 ; i<10 ; i++) {
 			System.out.println(i);

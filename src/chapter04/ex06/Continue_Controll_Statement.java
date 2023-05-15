@@ -3,9 +3,9 @@ package chapter04.ex06;
 public class Continue_Controll_Statement {
 	public static void main(String[] args) {
 		/*
-		continue : 제어문 내에서 break와 비슷하게 사용되는 키워드 
-			- break (실행문을 탈출), continue (아래 구문을 작동시키지않고 증감식을 실행)
-	 */
+			continue : 제어문 내에서 break와 비슷하게 사용되는 키워드 
+				- break (실행문을 탈출), continue (아래 구문을 작동시키지않고 증감식을 실행)
+		 */
 		
 		// 1. 단일 Loop 에서 continue
 		System.out.println("===== 단일 Loop 에서 continue ======");

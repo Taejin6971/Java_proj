@@ -3,11 +3,11 @@ package chapter03.ex03;
 public class LogicalOperator {
 	public static void main(String[] args) {
 		/*
-		논리 연산자 : 논리 연산한 결과를 true, false	<== if, 에서 조건으로 처리됨
-		 	&& (AND)	:
-		 	|| (OR)		:
-		 	^  (XOR)	: 앞뒤가 같을 때 false를 리턴, 앞뒤가 다를 때 true를 리턴
-		 	!  (NOT)	:
+			논리 연산자 : 논리 연산한 결과를 true, false	<== if, 에서 조건으로 처리됨
+			 	&& (AND)	:
+			 	|| (OR)		:
+			 	^  (XOR)	: 앞뒤가 같을 때 false를 리턴, 앞뒤가 다를 때 true를 리턴
+			 	!  (NOT)	:
 		 */
 		
 		// && : AND 연산 <== 논리 연산자가 연산한 결과는 true, false

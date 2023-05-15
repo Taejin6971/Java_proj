@@ -3,21 +3,21 @@ package chapter02.ex04;
 public class PrimaryDateType {
 	public static void main(String[] args) {
 		/*
-		 자료형 :
-		 	-기본 자료형 : RAM STACK(스택) 공간에 변수명, 변수의 값이 저장
-		 		- 8가지 기본 자료형 : boolean , 정수 (byte, short, int, long),
-		 			 			실수 (float, double), 문자 (char)
-		 		
-		 		- 정수형 자료형의 기본 : int		<== long 선언후 변수의 값(리터럴)을 담을때, l, L
-		 		- 실수혈 자료형의 기본 : double	<== float 선언된 변수에 값을 넣을때, f, F
-		 			 			
-		 	-참조 자료형 : RAM STACK 공간에 HEAP(힙)에 저장된 참조 주소를 가지고 있다.
-						HEAP에 값이 저장이된다
-				- 무한대 (객체(String) / 배열 / ...)
+			 자료형 :
+			 	-기본 자료형 : RAM STACK(스택) 공간에 변수명, 변수의 값이 저장
+			 		- 8가지 기본 자료형 : boolean , 정수 (byte, short, int, long),
+			 			 			실수 (float, double), 문자 (char)
+			 		
+			 		- 정수형 자료형의 기본 : int		<== long 선언후 변수의 값(리터럴)을 담을때, l, L
+			 		- 실수혈 자료형의 기본 : double	<== float 선언된 변수에 값을 넣을때, f, F
+			 			 			
+			 	-참조 자료형 : RAM STACK 공간에 HEAP(힙)에 저장된 참조 주소를 가지고 있다.
+							HEAP에 값이 저장이된다
+					- 무한대 (객체(String) / 배열 / ...)
+					
+			//리터럴 : 변수에 할당된 값을 통칭해사 리터럴
 				
-		//리터럴 : 변수에 할당된 값을 통칭해사 리터럴
-				
-		*/
+		 */
 		
 		//1. boolean : true, false 값만 저장할 수 있는 자료형
 		boolean bool1=true;

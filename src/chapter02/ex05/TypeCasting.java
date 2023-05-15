@@ -3,15 +3,15 @@ package chapter02.ex05;
 public class TypeCasting {
 	public static void main(String[] args) {
 		/*
-		타입 캐스팅(Type Casting) : 정수 ==> 실수, 실수 ==> 정수
-		 
-		- 낮은 자료형 =====> 높은 자료형 byte ==> short ==> int ==> long ==> float ==> double
-		 
-		- 업캐스팅 : 자동으로 변환, 
-			작은 자료형 ==> 높은 자료형으로 변환 
-		- 다운캐스팅 : 자동으로 변환 X, 수동으로 명시가 필요함.
-			높은 자료형 ==> 낮은 자료형으로 변환
-		*/
+			타입 캐스팅(Type Casting) : 정수 ==> 실수, 실수 ==> 정수
+			 
+			- 낮은 자료형 =====> 높은 자료형 byte ==> short ==> int ==> long ==> float ==> double
+			 
+			- 업캐스팅 : 자동으로 변환, 
+				작은 자료형 ==> 높은 자료형으로 변환 
+			- 다운캐스팅 : 자동으로 변환 X, 수동으로 명시가 필요함.
+				높은 자료형 ==> 낮은 자료형으로 변환
+		 */
 
 		// 1. 캐스팅 방법 
 

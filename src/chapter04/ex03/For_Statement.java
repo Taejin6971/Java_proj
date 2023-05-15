@@ -2,13 +2,13 @@ package chapter04.ex03;
 
 public class For_Statement {
 	public static void main(String[] args) {
-	/*
-		반복문 : for, while, do while,	조건이 true일 동안 반복, false 이면 구문을 빠져나온다.
-		
-		for (변수의 초기값 ; 조건 ; 증감식) {
-			//조건이 true 일동안 반복 실행블락
-		}
-	 */
+		/*
+			반복문 : for, while, do while,	조건이 true일 동안 반복, false 이면 구문을 빠져나온다.
+			
+			for (변수의 초기값 ; 조건 ; 증감식) {
+				//조건이 true 일동안 반복 실행블락
+			}
+		 */
 		
 	//1. for 문의 기초 : i = 0 값을 할당 함. i 변수는 for 블락에서 선언했기 때문에 for문이 끝나면 소멸
 		// 0 ~ 9 까지 1씩 증가 하면서 i 변수의 값을 출력

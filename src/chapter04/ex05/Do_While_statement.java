@@ -18,7 +18,7 @@ public class Do_While_statement {
 		      /실행 블락
 		      /증감식
 		   } while (조건) ;
-	*/
+		 */
 		
 		// 1. while 문 :
 		System.out.println("===== while 문 =====");
