@@ -39,6 +39,7 @@ public class Object06 {
 		kim.sAddr = "서울";
 		kim.sEmail = "aaa@aaa.com";
 
+		System.out.println(kim.sAddr);
 		// 이순신 / 30 / 부산 / bbb@bbb.com
 		lee.sName = "이순신";
 		lee.sAge = 30;
