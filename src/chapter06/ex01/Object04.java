@@ -10,7 +10,7 @@ class Car {
 	String carName; // 차명
 	String carColor; // 색깔
 	int carSpeed; // 스피드
-	double carWeigth; // 무게
+	double carWeight; // 무게
 
 	// 메소드 (기능)
 	public void start() {
@@ -26,7 +26,7 @@ class Car {
 		System.out.println("차명 : " + carName);
 		System.out.println("차 색깔 : " + carColor);
 		System.out.println("차 스피드 : " + carSpeed + "km/h");
-		System.out.println("차 무게 : " + carWeigth + "톤");
+		System.out.println("차 무게 : " + carWeight + "톤");
 	}
 	
 }
@@ -53,21 +53,21 @@ public class Object04 {
 		c1.carName = "그랜져";
 		c1.carColor = "검은색";
 		c1.carSpeed = 250;
-		c1.carWeigth = 1.0;
+		c1.carWeight = 1.0;
 
 		// 쌍용자동차 / 투싼 / 노란색 / 300 / 2.0 톤
 		c2.company = "쌍용자동차";
 		c2.carName = "투싼";
 		c2.carColor = "노란색";
 		c2.carSpeed = 300;
-		c2.carWeigth = 2.0;
+		c2.carWeight = 2.0;
 
 		// 기아자동차 / K9 / 흰색 / 350 / 2.5 톤
 		c3.company = "기아자동차";
 		c3.carName = "K9";
 		c3.carColor = "흰색";
 		c3.carSpeed = 350;
-		c3.carWeigth = 2.5;
+		c3.carWeight = 2.5;
 
 		// c1,2,3 필드의 값 출력 (stop();, start();, print();)
 		System.out.println("\n===== c1 객체 =====");

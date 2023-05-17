@@ -14,10 +14,10 @@ public class Ex02 {
 		String mName;
 		String bName;
 		String myName;
-		double fWeith;
-		double mWeith;
-		double bWeith;
-		double myWeith;
+		double fWeight;
+		double mWeight;
+		double bWeight;
+		double myWeight;
 
 		System.out.println("아버지의 이름을 입력하세요>>>");
 		fName = sc.next();
@@ -28,15 +28,15 @@ public class Ex02 {
 		System.out.println("자신의 이름을 입력하세요>>>");
 		myName = sc.next();
 		System.out.println("아버지의 몸무게를 입력하세요>>>");
-		fWeith = sc.nextDouble();
+		fWeight = sc.nextDouble();
 		System.out.println("어머니의 몸무게를 입력하세요>>>");
-		mWeith = sc.nextDouble();
+		mWeight = sc.nextDouble();
 		System.out.println("형제의 몸무게를 입력하세요>>>");
-		bWeith = sc.nextDouble();
+		bWeight = sc.nextDouble();
 		System.out.println("자신의 몸무게를 입력하세요>>>");
-		myWeith = sc.nextDouble();
+		myWeight = sc.nextDouble();
 
-		double sum = fWeith + mWeith + bWeith + myWeith;
+		double sum = fWeight + mWeight + bWeight + myWeight;
 		double avg = sum / 4.00;
 
 		System.out.printf("%s 님의 가족원 몸무게 합은 %5.2f 이고," + "평균 몸무게는 %5.2f 입니다.", myName, sum, avg);
