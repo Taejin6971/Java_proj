@@ -14,9 +14,9 @@ public class Member_Test {
 		m1.setMemberAge(25);
 
 		// getter
-		System.out.print(m1.getMemberNo());
-		System.out.print(m1.getMemberId());
-		System.out.print(m1.getMemberpass());
+		System.out.println(m1.getMemberNo());
+		System.out.println(m1.getMemberId());
+		System.out.println(m1.getMemberpass());
 		System.out.println(m1.getMemberEmail());
 		System.out.println(m1.getMemberAge());
 
