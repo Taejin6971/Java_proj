@@ -43,6 +43,7 @@ public class Ex02 {
 		System.out.println("현대자동차 배열에 저장된 최대스피드의 평균출력은 " + avg + " km/h");
 	}
 
+	
 	int sumOil(Car[] arr) {
 		int sum = 0;
 		for (int i = 0; i < arr.length; i++) {
