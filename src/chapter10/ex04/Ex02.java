@@ -25,10 +25,10 @@ public class Ex02 {
 	void carInfo(Car c1, Car c2, Car c3, Car c4) {
 		// 현대자동차 객체를 인풋 받아서 arr배열 변수에 저장
 		arr = new Car[] { c1, c2, c3, c4 };
-		// 현대자동차의 배열에 저장된 최대스피드의 평균을 출력
+		// 현대자동차 배열에 저장된 최대스피드의 평균을 출력
 		avgMaxSpeed(arr);
-		// 현대자동차의 배열에 저장된 기름탱크용량의 합을 출력
-		System.out.println("현대자동차의 배열에 저장된 기름탱크용량의 합은 " + sumOil(arr) + " L");
+		// 현대자동차 배열에 저장된 기름탱크용량의 합을 출력
+		System.out.println("현대자동차 배열에 저장된 기름탱크용량의 합은 " + sumOil(arr) + " L");
 	}
 
 	void avgMaxSpeed(Car[] arr) {
@@ -36,21 +36,18 @@ public class Ex02 {
 		double avg = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] instanceof Hcar) {
-				Hcar h = (Hcar) arr[i];
-				sum += h.maxSpeed;
+				sum += ((Hcar) arr[i]).maxSpeed;
 			}
 			avg = (double) sum / arr.length;
 		}
-		System.out.println("현대자동차의 배열에 저장된 최대스피드의 평균출력은 " + avg + " km/h");
-
+		System.out.println("현대자동차 배열에 저장된 최대스피드의 평균출력은 " + avg + " km/h");
 	}
 
 	int sumOil(Car[] arr) {
 		int sum = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] instanceof Hcar) {
-				Hcar h = (Hcar) arr[i];
-				sum += h.oilLiter;
+				sum += ((Hcar) arr[i]).oilLiter;
 			}
 		}
 		return sum;
