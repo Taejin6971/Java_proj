@@ -1,7 +1,5 @@
 package chapter10.ex04;
 
-import java.util.Iterator;
-
 // 상속, 업/다운캐스팅
 
 class Human { // 부모 클래스
