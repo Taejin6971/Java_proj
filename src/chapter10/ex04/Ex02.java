@@ -38,8 +38,8 @@ public class Ex02 {
 			if (arr[i] instanceof Hcar) {
 				Hcar h = (Hcar) arr[i];
 				sum += h.maxSpeed;
-				avg = (double) sum / arr.length;
 			}
+			avg = (double) sum / arr.length;
 		}
 		System.out.println("현대자동차의 배열에 저장된 최대스피드의 평균출력은 " + avg + " km/h");
 
