@@ -77,9 +77,9 @@ public class Ex01 {
 		// "사과" 2000 5
 		// "바나나" 4000 10
 		// "딸기" 5000 30
-		Object a1 = new Apple("사과", 2000, 5);
-		Object b1 = new Banana("바나나", 4000, 10);
-		Object s1 = new Strawberry("딸기", 5000, 30);
+		Apple a1 = new Apple("사과", 2000, 5);
+		Banana b1 = new Banana("바나나", 4000, 10);
+		Strawberry s1 = new Strawberry("딸기", 5000, 30);
 
 		// 모든 객체를 Object 배열에 넣습니다.
 		Object[] obj = new Object[] { a1, b1, s1 };
