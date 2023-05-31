@@ -18,7 +18,7 @@ public class AbableGenericMethod {
 	public static void main(String[] args) {
 
 //		제너릭 메소드의 인풋 매개변수에서 사용 가능한 메소드 : Object 클래스의 메소드만 사용 가능하다.
-//			- 다양한 타입이 들어오므로 Object 클래스의 
+//			- 다양한 타입이 들어오므로 Object클래스의 메소드만 사용 가능함.
 
 		A a = new A();
 
