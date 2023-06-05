@@ -44,7 +44,7 @@ class Student {
 public class Ex02 {
 	public static void main(String[] args) {
 
-		Set<Student> hset = new HashSet();
+		Set<Student> hSet = new HashSet();
 
 		// 학생 객체 5개 생성해서 set에 넣을 경우 stuID 필드에 중북된 값을 넣지 못하도록 설정
 		// stuID필드의 equals() 재정의 , hashCode() 재정의
@@ -56,17 +56,17 @@ public class Ex02 {
 		Student s4 = new Student(1111, "홍길동", "010-1111-1111");
 		Student s5 = new Student(1111, "홍길동", "010-1111-1111");
 
-		// Set 에 값을 할당 : hset
-		hset.add(s1); // 중복
-		hset.add(s2);
-		hset.add(s3);
-		hset.add(s4); // 중복
-		hset.add(s5); // 중복
+		// Set 에 값을 할당 : hSet
+		hSet.add(s1); // 중복
+		hSet.add(s2);
+		hSet.add(s3);
+		hSet.add(s4); // 중복
+		hSet.add(s5); // 중복
 
-		System.out.println(hset.size());
+		System.out.println(hSet.size());
 
 		System.out.println("=====Set에 저장된 값을 출격 : Iterator 사용================");
-		Iterator<Student> ir = hset.iterator();
+		Iterator<Student> ir = hSet.iterator();
 		while (ir.hasNext()) {
 
 			Student student = ir.next();
@@ -76,7 +76,7 @@ public class Ex02 {
 		}
 
 		System.out.println("=====Set에 저장된 값을 출격 : Enhanced For 사용================");
-		for (Student k : hset) {
+		for (Student k : hSet) {
 			System.out.println(k.stuID);
 		}
 	}

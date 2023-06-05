@@ -107,12 +107,12 @@ public class Set_TreeSet_Class {
 //			3. 방번호가 없다. 
 //			4. 값이 정렬되어서 들어간다(오름차순 정렬), 
 //			5. 검색/정렬 기능의 메소드가 추가적으로 들어있다. 
-//			- Wapper Class 는 자동으로 정렬해서 들어 가도록 설계가 되어 있다. String
+//			- Wrapper Class 는 자동으로 정렬해서 들어 가도록 설계가 되어 있다. String
 
 //			- 일반 클래스를 TreeSet에 저장할때 특정 컬럼을 정렬해서 저장 되도록 하기 위해서는 
 //			- Comparable<E> 인터페이스를 구현해서 compareTo() 메소드를 오버라이딩해서 특정컬럼이 정렬되어 들어가도록 설계해야한다.
 
-		// Wapper 클래스를 TreeSet에 저장하면 자동으로 오름차순 정렬되어 들어감. :
+		// Wrapper 클래스를 TreeSet에 저장하면 자동으로 오름차순 정렬되어 들어감. :
 		Set<String> set1 = new TreeSet();
 		set1.add("하");
 		set1.add("카");

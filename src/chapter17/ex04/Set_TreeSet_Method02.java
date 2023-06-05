@@ -40,7 +40,7 @@ public class Set_TreeSet_Method02 {
 		// 2. last() : 제일 마지막값 가져오기
 		System.out.println(treeSet.last()); // 5
 
-		// 3. lower(E elememt) : element보다 작은 값을 출력
+		// 3. lower(E element) : element보다 작은 값을 출력
 		System.out.println(treeSet.lower(26)); // 24
 
 		// 4. higher (E element) : element보다 큰값을 출력
